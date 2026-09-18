@@ -30,11 +30,19 @@ yarn-error.*
 .DS_Store
 *.pem
 
-# local env files
-.env*.local
+# env files — never commit real secrets; keep only a template
+.env
+.env.*
+!.env.example
 
 # typescript
 *.tsbuildinfo
+
+# local Node-side sqlite db (db/server.ts) — separate from the on-device db
+local.db
+local.db-journal
+local.db-wal
+local.db-shm
 
 app-example
 

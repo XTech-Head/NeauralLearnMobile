@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "299599040113",
+    "project_id": "neurallearnmobile",
+    "storage_bucket": "neurallearnmobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299599040113:android:18cb109ea6974c8e8415d0",
+        "android_client_info": {
+          "package_name": "com.xammy_huncho.neurallearnmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299599040113-1pu8t63c6nh8pc05kfkck7hdk8iev6ap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE_rFxu5JqlKA_PHu0pNdKCjL9V5I-o7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299599040113-1pu8t63c6nh8pc05kfkck7hdk8iev6ap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
