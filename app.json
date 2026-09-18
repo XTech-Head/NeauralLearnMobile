@@ -15,12 +15,13 @@
       }
     },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#F0EDFA",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
-      },
+  "adaptiveIcon": {
+    "backgroundColor": "#010107",
+    "foregroundImage": "./assets/images/android-icon-foreground.png",
+    "backgroundImage": "./assets/images/android-icon-background.png",
+    "monochromeImage": "./assets/images/android-icon-monochrome.png"
+  },
+  
       "predictiveBackGestureEnabled": false,
       "package": "com.xammy_huncho.neurallearnmobile",
       "permissions": [
@@ -46,12 +47,10 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
+          "imageWidth": 240,
           "resizeMode": "contain",
-          "backgroundColor": "#FFFFFF",
-          "dark": {
-            "backgroundColor": "#050308"
-          }
+          "backgroundColor": "#010107",
+          "dark": { "backgroundColor": "#010107" }
         }
       ],
       "expo-web-browser",

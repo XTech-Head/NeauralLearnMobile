@@ -8,9 +8,8 @@
       "developmentClient": true,
       "distribution": "internal"
     },
-    "preview": {
-      "distribution": "internal"
-    },
+  "preview": { "distribution": "internal", "android": { "buildType": "apk" }, "environment": "production", "node": "22.13.0" },
+  
     "production": {
   "autoIncrement": true,
   "node": "22.0.0"

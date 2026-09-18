@@ -208,6 +208,15 @@ export default function ProfileScreen() {
               />
             )}
           </View>
+          
+          <MenuRow
+  icon="globe-outline"
+  label="Open web app"
+  theme={theme}
+  onPress={() =>
+    Linking.openURL("https://neaural-learn.vercel.app")
+  }
+/>
           <MenuRow
             icon="moon-outline"
             label="Appearance"
