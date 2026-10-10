@@ -213,9 +213,7 @@ export default function ProfileScreen() {
   icon="globe-outline"
   label="Open web app"
   theme={theme}
-  onPress={() =>
-    Linking.openURL("https://neaural-learn.vercel.app")
-  }
+  onPress={() => Linking.openURL("https://neural-learn.vercel.app")}
 />
           <MenuRow
             icon="moon-outline"
